@@ -7,8 +7,13 @@ import csv
 import Drinks
 
 
-ESPRESSO_DRINKS = ['espresso', 'flat white', 'mocha', 'cappucino']
-COFFEE_DRINKS = ['drip', 'french press', 'siphon', 'aeropress']
+drinks = {
+    'drip': Drinks.Drip, 'espresso': Drinks.Espresso, 'mocha': Drinks.Mocha,
+    'pour over': Drinks.PourOver, 'cold brew': Drinks.ColdBrew,  'latte': Drinks.Latte, 
+    'siphon': Drinks.Siphon,  'french press': Drinks.FrenchPress, 
+    'four sigmatic think': Drinks.FourSigThink, 'cappuccino': Drinks.Cappuccino,
+    'flat white': Drinks.FlatWhite, 'aeropress': Drinks.Aeropress,
+    'iced coffee': Drinks.IcedCoffee}
 
 def csvToList(filePath, formatFunc):
     """Return the data from keepFile filePath."""
@@ -36,17 +41,15 @@ def formatDocsLine(line, defaultCity=('Atanta', 'GA')):
     return line
     
 
-def createCoffeeObjs(line):
+def createObjects(line):
     """Return an instance of Drink corresponding to the data in this line."""
     dateTime = line[:5]
     location = line[6:]
     drinkType = line[5]
-    if drinkType in ESPRESSO_DRINKS:
-        return Drinks.Espresso(dateTime, drinkType, location)
-    elif drinkType in COFFEE_DRINKS:
-        return Drinks.Coffee(dateTime, drinkType, location)
+    if drinkType in drinks:
+        return drinks[drinkType](dateTime, location)
     else:
-        return Drinks.Other(dateTime, drinkType, location)       
+        raise KeyError('drink {} not in drink dictionary\n{}'.format(drinkType, line))       
     
 def cleanLine(lineList):
     return [val.strip() for val in lineList if val]
