@@ -17,5 +17,8 @@ data = plotter.getData()
 daysVsTypeFig, dayVsTimeAx = pyplot.subplots(1, 1, **figArgs)
 plotter.plotDOYvsTime(dayVsTimeAx, data, colorBy='base', colorScheme=defaultScheme)
 
+dayVsNumFig, dayVsNumAx = pyplot.subplots(1, 1, **figArgs)
+plotter.plotNumberDrinksPerDay(dayVsNumAx, data)
+
 if __name__ == '__main__':
     pyplot.show()

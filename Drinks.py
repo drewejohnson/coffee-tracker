@@ -16,7 +16,6 @@ class _Drink(object):
         self.dateTime = self.formatTime(dateTime)
         self.drinkType = drinkType
         self.location = location
-        self.uniqueColor = None
 
     def formatTime(self, dateTimeVec):
         """Convert the dateTime iterable into a datetime object.
@@ -63,7 +62,11 @@ class _Drink(object):
         return cls.__subclasses__()
         
     def drinkClass(self):
-        return self.__class__    
+        return self.__class__ 
+ 
+    @property
+    def name(self):
+        return self.__class__.__name__      
 
 
 class _Drip(_Drink):
