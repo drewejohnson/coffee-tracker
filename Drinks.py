@@ -5,16 +5,18 @@ from datetime import datetime
 
 from matplotlib.dates import date2num
 
-class _Drink(object):
+timeDelim = '-'
+timeItems = ['%y', '%m', '%d', '%H', '%M']
+timeFormat = timeDelim.join(timeItems)
 
-    timeDelim = '-'
-    timeItems = ['%y', '%m', '%d', '%H', '%M']
-    timeFormat = timeDelim.join(timeItems)
+
+class _Drink(object):
 
     def __init__(self, dateTime, drinkType, location):
         self.dateTime = self.formatTime(dateTime)
         self.drinkType = drinkType
         self.location = location
+        self.uniqueColor = None
 
     def formatTime(self, dateTimeVec):
         """Convert the dateTime iterable into a datetime object.
@@ -28,13 +30,13 @@ class _Drink(object):
         The dateTimeVec iterable format is (YY, MM, DD, HH, mm)
         All times are local
         """
-        timeStr = self.timeDelim.join([val.zfill(2) for val in dateTimeVec])
-        return datetime.strptime(timeStr, self.timeFormat)
+        timeStr = timeDelim.join([val.zfill(2) for val in dateTimeVec])
+        return datetime.strptime(timeStr, timeFormat)
 
 
     def __str__(self):
         return '{} from {}'.format(self.__class__.__name__,
-                                   self.dateTime.strftime(self.timeFormat))
+                                   self.dateTime.strftime(timeFormat))
 
     def toCsv(self, delims=timeItems):
         timeVec = [self.dateTime.strftime(dd) for dd in delims]
@@ -55,24 +57,37 @@ class _Drink(object):
         
     def date2Num(self):
         return date2num(self.date)
+    
+    @classmethod   
+    def subClasses(cls):
+        return cls.__subclasses__()
+        
+    def drinkClass(self):
+        return self.__class__    
 
 
 class _Drip(_Drink):
     def __init__(self, dateTime, drinkType, location):
         _Drink.__init__(self, dateTime, drinkType, location)
-        self.baseColor = '#aa3939'
+        
+    def baseType(self):
+        return _Drip    
 
 
 class _Espresso(_Drink):
     def __init__(self, dateTime, drinkType, location):
         _Drink.__init__(self, dateTime, drinkType, location)
-        self.baseColor = '#aa6C39'
+        
+    def baseType(self):
+        return _Espresso  
 
 
 class _Other(_Drink):
     def __init__(self, dateTime, drinkType, location):
         _Drink.__init__(self, dateTime, drinkType, location)
-        self.baseColor = '#226666'
+        
+    def baseType(self):
+        return _Other    
 
 
 class Drip(_Drip):
@@ -137,3 +152,13 @@ class Espresso(_Espresso):
 class FourSigThink(_Other):
     def __init__(self, dateTime, location):
         _Other.__init__(self, dateTime, 'four sigmatic think', location)
+        
+        
+def allDrinks():
+    listDrinks = []
+    for subClass in _Drink.subClasses():
+        listDrinks.extend(subClass.subClasses())
+    return listDrinks
+    
+def mainTypes():
+    return _Drink.__subclasses__()

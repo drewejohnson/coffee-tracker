@@ -25,7 +25,7 @@
 17,01,23,08,54,french press,work,Atlanta,GA
 17,01,23,14,17,espresso,Work,Atanta,GA
 17,01,23,14,17,espresso,work,Atlanta,GA
-17,01,25,01,45,mocha,Joe's,Atanta,GA
+17,01,25,13,45,mocha,Joe's,Atanta,GA
 17,01,25,09,13,pour over,Home,Atanta,GA
 17,01,26,08,38,espresso,work,Atanta,GA
 17,01,26,08,55,french press,work,Atanta,GA
@@ -256,7 +256,7 @@
 17,05,17,08,50,drip,work,Bellevue,WA
 17,05,17,10,27,drip,work,Bellevue,WA
 17,05,17,12,45,drip,work,Bellevue,WA
-17,05,17,04,30,drip,work,Bellevue,WA
+17,05,17,16,30,drip,work,Bellevue,WA
 17,05,18,08,56,espresso,work,Bellevue,WA
 17,05,18,11,39,drip,work,Bellevue,WA
 17,05,18,12,50,drip,work,Bellevue,WA
@@ -295,3 +295,5 @@
 17,06,02,14,16,drip,work,Bellevue,WA
 17,06,02,18,48,drip,work,Bellevue,WA
 17,06,03,16,34,drip,home,Kirkland,WA
+17,06,04,09,12,drip,home,Kirkland,WA
+17,06,04,13,18,pour over,home,Kirkland,WA
