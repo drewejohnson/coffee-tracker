@@ -278,7 +278,7 @@
 17,05,24,12,35,latte,work,Bellevue,WA
 17,05,24,14,19,drip,work,Bellevue,WA
 17,05,25,08,48,drip,work,Bellevue,WA
-17,05,25,12,24,cold brew,work,Bellevue,WA
+17,05,25,12,24,cold brew,Starbucks,Bellevue,WA
 17,05,25,15,24,latte,work,Bellevue,WA
 17,05,27,08,40,pour over,home,Tacoma,WA
 17,05,27,14,44,pour over,Urban Coffee,Seattle,WA
@@ -293,7 +293,6 @@
 17,06,01,13,04,latte,work,Bellevue,WA
 17,06,02,08,09,drip,work,Bellevue,WA
 17,06,02,14,16,drip,work,Bellevue,WA
-17,06,02,18,48,drip,work,Bellevue,WA
 17,06,03,16,34,drip,home,Kirkland,WA
 17,06,04,09,12,drip,home,Kirkland,WA
 17,06,04,13,18,pour over,home,Kirkland,WA
@@ -332,3 +331,147 @@
 17,06,15,12,50,drip,work,Bellevue,WA
 17,06,15,12,55,espresso,work,Bellevue,WA
 17,06,15,14,44,drip,work,Bellevue,WA
+17,06,16,08,08,drip,work,Bellevue,WA
+17,06,16,11,21,drip,work,Bellevue,WA
+17,06,16,12,48,latte,work,Bellevue,WA
+17,06,17,11,01,mocha,Cafe elite,Spanaway,WA
+17,06,17,19,34,drip,Bertallinos,Tacoma,WA
+17,06,18,09,52,drip,Home,Tacoma,WA
+17,06,18,10,42,drip,church,Tacoma,WS
+17,06,18,14,07,drip,home,Tacoma,WA
+17,06,19,06,29,pour over,home,Kirkland,WA
+17,06,19,08,18,latte,work,Bellevue,WA
+17,06,19,13,01,drip,work,Bellevue,WA
+17,06,20,07,46,drip,Big Apple Bagels,Bellevue,WA
+17,06,20,10,44,drip,work,Bellevue,WA
+17,06,21,08,41,drip,work,Bellevue,WA
+17,06,21,15,21,drip,work,Bellevue,WA
+17,06,21,13,22,espresso,work,Bellevue,WA
+17,06,22,08,44,espresso,work,Bellevue,WA
+17,06,22,13,18,espresso,work,Bellevue,WA
+17,06,23,08,10,drip,work,Bellevue,WA
+17,06,23,11,09,latte,work,Bellevue,WA
+17,06,23,12,49,mocha,Starbucks,Bellevue,WA
+17,06,24,11,15,pour over,home,Kirkland,WA
+17,06,25,10,33,pour over,home,Kirkland,WA
+17,06,26,07,43,drip,Starbucks,Bellevue,WA
+17,06,26,12,35,latte,work,Bellevue,WA
+17,06,27,08,12,drip,work,Bellevue,WA
+17,06,27,11,33,drip,work,Bellevue,WA
+17,06,28,08,10,espresso,work,Bellevue,WA
+17,06,28,10,44,drip,work,Bellevue,WA
+17,06,28,15,11,drip,work,Bellevue,WA
+17,06,29,08,42,latte,work,Bellevue,WA
+17,06,29,11,48,espresso,work,Bellevue,WA
+17,06,29,13,34,drip,work,Bellevue,WA
+17,06,30,08,01,drip,work,Bellevue,WA
+17,06,30,12,33,latte,work,Bellevue,WA
+17,06,30,15,47,espresso,work,Bellevue,WA
+17,07,01,09,11,flat white,Starbucks,Kennewick,WA
+17,07,01,17,53,latte,Starbucks,Kennewick,WA
+17,07,02,08,57,drip,home,Kennewick,WA
+17,07,02,09,17,drip,home,Kennewick,WA
+17,07,02,11,43,mocha,Dutch Bros,Kennewick,WA
+17,07,03,10,14,latte,Reunion,Kirkland,WA
+17,07,03,15,01,pour over,home,Kirkland,WA
+17,07,04,17,44,pour over,home,Kirkland,WA
+17,07,04,16,50,drip,home,Snoqualmie,WA
+17,07,05,08,10,espresso,work,Bellevue,WA
+17,07,05,12,39,latte,work,Bellevue,WA
+17,07,05,15,18,espresso,work,Bellevue,WA
+17,07,06,07,40,pour over,Honor,Bellevue,WA
+17,07,06,13,55,latte,work,Bellevue,WA
+17,07,07,08,35,drip,work,Bellevue,WA
+17,07,07,13,05,latte,work,Bellevue,WA
+17,07,08,12,33,pour over,home,Kirkland,WA
+17,07,08,17,48,pour over,home,Kirkland,WA
+17,07,09,09,22,pour over,home,Kirkland,WA
+17,07,09,10,04,drip,Church,Kirkland,WA
+17,07,10,08,05,espresso,work,Bellevue,WA
+17,07,10,10,30,drip,work,Bellevue,WA
+17,07,10,14,40,latte,work,Bellevue,WA
+17,07,11,07,28,latte,Honor coffee,Bellevue,WA
+17,07,11,10,56,espresso,work,Bellevue,WA
+17,07,11,14,22,drip,work,Bellevue,WA
+17,07,12,08,14,latte,work,Bellevue,WA
+17,07,12,14,02,latte,work,Bellevue,WA
+17,07,12,19,49,pour over,home,Kirkland,WA
+17,07,13,08,11,latte,work,Bellevue,WA
+17,07,13,16,33,latte,work,Bellevue,WA
+17,07,14,07,59,latte,Starbucks,Bellevue,WA
+17,07,14,12,32,iced caramel machiatto,copper kettle,Bellevue,WA
+17,07,15,11,48,pour over,home,Kirkland,WA
+17,07,16,08,48,pour over,home,Kirkland,WA
+17,07,16,10,05,drip,Church,Kirkland,WA
+17,07,17,08,17,latte,work,Bellevue,WA
+17,07,17,13,26,espresso,work,Bellevue,WA
+17,07,18,08,11,drip,work,Bellevue,WA
+17,07,18,15,20,latte,work,Bellevue,WA
+17,07,19,08,40,latte,work,Bellevue,WA
+17,07,19,13,15,latte,work,Bellevue,WA
+17,07,20,07,22,latte,Honor coffee,Bellevue,WA
+17,07,20,12,38,latte,work,Bellevue,WA
+17,07,20,11,10,drip,work,Bellevue,WA
+17,07,21,08,04,drip,work,Bellevue,WA
+17,07,21,15,16,latte,work,Bellevue,WA
+17,07,22,10,02,drip,hotel,Tacoma,WA
+17,07,22,15,22,iced latte,The Spar,Tacoma,WA
+17,07,23,13,50,pour over,Valhalla,Tacoma,WA
+17,07,24,09,36,drip,hotel,Tacoma,WA
+17,07,25,08,08,latte,work,Bellevue,WA
+17,07,25,11,02,drip,work,Bellevue,WA
+17,07,25,17,00,drip,work,Bellevue,WA
+17,07,26,08,10,latte,work,Bellevue,WA
+17,07,26,11,26,espresso,work,Bellevue,WA
+17,07,26,16,03,latte,work,Bellevue,WA
+17,07,27,08,10,latte,work,Bellevue,WA
+17,07,28,08,20,espresso,work,Bellevue,WA
+17,07,28,11,33,latte,work,Bellevue,WA
+17,07,29,09,54,pour over,home,Kirkland,WA
+17,07,29,15,22,latte,Coava Coffee,Portland,OR
+17,07,31,08,11,latte,work,Bellevue,WA
+17,07,31,11,09,espresso,work,Bellevue,WA
+17,07,31,13,05,latte,work,Bellevue,WA
+17,08,01,07,22,latte,Honor coffee,Bellevue,WA
+17,08,01,11,02,latte,work,Bellevue,WA
+17,08,01,16,37,latte,work,Bellevue,WA
+17,08,02,08,17,latte,work,Bellevue,WA
+17,08,03,07,41,latte,Honor coffee,Bellevue,WA
+17,08,03,10,26,espresso,work,Bellevue,WA
+17,08,03,14,14,latte,work,Bellevue,WA
+17,08,04,08,24,latte,work,Bellevue,WA
+17,08,05,08,29,latte,home,Tacoma,WA
+17,08,06,10,10,mocha,home,Tacoma,WA
+17,08,06,13,56,pour over,metronome,Tacoma,WA
+17,08,06,14,02,cold brew,metronome,Tacoma,WA
+17,08,07,08,07,espresso,work,Bellevue,WA
+17,08,07,11,31,latte,work,Bellevue,WA
+17,08,07,12,38,latte,copper kettle,Bellevue,WA
+17,08,07,15,37,drip,work,Bellevue,WA
+17,08,08,08,10,latte,work,Bellevue,WA
+17,08,08,11,07,espresso,work,Bellevue,WA
+17,08,07,15,40,latte,work,Bellevue,WA
+17,08,09,08,08,latte,work,Bellevue,WA
+17,08,09,13,48,drip,work,Bellevue,WA
+17,08,09,15,15,cold brew,Starbucks,Bellevue,WA
+17,08,10,07,33,latte, Honor coffee,Bellevue,WA
+17,08,10,11,03,espresso,work,Bellevue,WA
+17,08,10,13,53,latte,work,Bellevue,WA
+17,08,11,08,09,drip,Starbucks,Bellevue,WA
+17,08,12,11,30,pour over,home,Kirkland,WA
+17,08,13,10,11,latte,Honor coffee,Bellevue,WA
+17,08,14,08,10,latte,work,Bellevue,WA
+17,08,14,12,44,latte,work,Bellevue,WA
+17,08,14,15,37,espresso,work,Bellevue,WA
+17,08,15,07,44,drip,Starbucks,Bellevue,WA
+17,08,15,12,44,latte,work,Bellevue,WA
+17,08,16,08,13,drip,work,Bellevue,WA
+17,08,16,11,40,latte,work,Bellevue,WA
+17,08,16,16,33,espresso,work,Bellevue,WA
+17,08,17,08,18,latte,work,Bellevue,WA
+17,08,18,08,15,espresso,work,Bellevue,WA
+17,08,18,09,15,French press,work,Bellevue,WA
+17,08,18,15,45,espresso,work,Bellevue,WA
+17,08,19,11,19,pour over,home,Kirkland,WA
+17,08,20,10,08,drip,home,Bonney Lake,WA
+17,08,22,08,40,pour over, home, Kirkland,WA
